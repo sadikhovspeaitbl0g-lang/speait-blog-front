@@ -88,7 +88,7 @@ export default function Sidebar() {
 
                         <h2 className="text-base font-semibold">Yunus Sadikhov</h2>
                         <p className="mt-1 text-xs leading-relaxed text-muted-foreground">
-                            CyberSecurity &amp; Programming Blog
+                            CyberSecurity Blog
                         </p>
                     </section>
 
