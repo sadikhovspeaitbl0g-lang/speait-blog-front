@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Fakhri Farajov's Blog",
+  title: "Cybersecurity Blog",
   description: "CyberSecurity and IT blog",
 };
 

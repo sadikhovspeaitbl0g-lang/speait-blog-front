@@ -7,7 +7,7 @@ const About = () => {
 
       <div className="max-w-2xl space-y-5 text-muted-foreground">
         <p className="leading-relaxed">
-          My name is Fakhri Farajov, and I am a student at TalTech University.
+          My name is Yunus Sadikhov, and I am a student at TalTech University.
           Although I have previous experience in web and mobile development, I
           am particularly passionate about cybersecurity and understanding the
           security principles behind the code. At the same time, I am eager to
@@ -22,7 +22,7 @@ const About = () => {
       </div>
 
       <h3 className="mt-8 text-lg font-semibold">
-        Fakhri Farajov
+        Yunus Sadikhov
       </h3>
     </div>
   )

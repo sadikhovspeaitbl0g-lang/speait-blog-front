@@ -14,7 +14,6 @@ import {
     Menu,
     Rss,
     Share2,
-    User2,
     UserRound,
     X,
 } from "lucide-react"
@@ -27,7 +26,6 @@ const navigation = [
     { label: "Home", href: "/home", icon: Home },
     { label: "About", href: "/about", icon: UserRound },
     { label: "Stack", href: "/stack", icon: Layers },
-    { label: "Projects", href: "/projects", icon: Folder },
 ]
 
 export default function Sidebar() {
@@ -81,19 +79,14 @@ export default function Sidebar() {
                     <section className="flex flex-col items-center border-b border-sidebar-border pb-6 pt-7 text-center">
                         <div className="mb-3 flex size-17 items-center justify-center overflow-hidden rounded-xl bg-sidebar-accent">
                             {/* Replace this icon with your profile image. */}
-
-                            {process.env.NEXT_PUBLIC_PROFILE === "enabled" ? (
                                 <img
-                                    src="/photo1.jpg"
+                                    src="/profile.png"
                                     alt="Profile"
                                     className="h-full w-full object-cover"
                                 />
-                            ) : (
-                                <User2 />
-                            )}
                         </div>
 
-                        <h2 className="text-base font-semibold">Fakhri Farajov</h2>
+                        <h2 className="text-base font-semibold">Yunus Sadikhov</h2>
                         <p className="mt-1 text-xs leading-relaxed text-muted-foreground">
                             CyberSecurity &amp; Programming Blog
                         </p>
@@ -135,7 +128,7 @@ export default function Sidebar() {
                         <ModeToggle />
 
                         <Link
-                            href="https://www.linkedin.com/feed/update/urn:li:activity:7428781287781396480/"
+                            href="https://www.linkedin.com/in/yunus-sadikhov/"
                             aria-label="LinkedIn"
                             className="rounded p-2 transition-colors hover:text-sidebar-foreground"
                         >
@@ -143,7 +136,7 @@ export default function Sidebar() {
                         </Link>
 
                         <Link
-                            href="https://github.com/FakhriFarajov"
+                            href="https://github.com/YunusSad"
                             aria-label="GitHub"
                             className="rounded p-2 transition-colors hover:text-sidebar-foreground"
                         >
